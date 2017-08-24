@@ -40,7 +40,7 @@ ShadowsocksR-libev for OpenWrt
      ./scripts/feeds install zlib libopenssl libpolarssl libmbedtls libpcre
      rm -rf package/feeds/base/mbedtls/patches
    # 获取 shadowsocksr-libev Makefile
-   git clone https://github.com/chenhw2/openwrt-shadowsocksr.git package/feeds/shadowsocksr-libev
+   git clone https://github.com/IxsCN/openwrt-shadowsocksr.git package/feeds/shadowsocksr-libev
    # 选择要编译的包 Network -> shadowsocksr-libev
    make menuconfig
    # 开始编译
